@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.divCard{
+    background-color: #fff;
+    border: 1px solid #000;
+    height: 520px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    filter: drop-shadow(4px 2px 5px black);
+    margin-top: 40px;
+}
+.divContainer{
+    background-color: #428CD1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+img {
+    width: 150px;
+ 
+}
+.titlePkm{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.sessionOne {
+    display: grid;
+    justify-items: center;
+   
+}
+.sessionTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+
+}
+ 
+.sessionThree{
+    align-items: center;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+
+}
+.sessionFour{
+    align-items: center;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+}
+.sessionFive{
+    align-items: center;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+}
+ 
