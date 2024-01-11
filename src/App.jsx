@@ -7,10 +7,13 @@ export default function App() {
   return (
     <>
     <Card avatar={imgPkm1} 
-    name="Pokemon"
-    skill1="aaaa"
-    skill2="nnn"
-    skill3="wwww" />
+    pokemon="Garchomp - 0445"
+    skill1="Species	Mach Pokémon"
+    skill2="Height	1.9 m (6′03″)"
+    skill3="1. Sand Veil
+    Rough Skin (hidden ability)"
+    textBtn="Dragon" 
+    textBtn1="Ground"/>
     </>
   )
 }

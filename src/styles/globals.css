@@ -3,7 +3,11 @@
     padding: 0;
     
 }
-
+:root{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
 .divCard{
     background-color: #fff;
     border: 1px solid #000;
@@ -23,7 +27,14 @@
 }
 img {
     width: 150px;
+    border-radius: 10px;
+    display: grid;
+    justify-self: center;
+
  
+}
+a{
+    text-decoration: none;
 }
 .titlePkm{
     font-family: sans-serif;
