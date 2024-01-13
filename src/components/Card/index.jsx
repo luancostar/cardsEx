@@ -1,8 +1,16 @@
 /* eslint-disable react/prop-types */
+import { useState } from 'react'
 import Title from '../Title'
 import styles from './styles.module.css'
 
 export default function Card (props) {
+    // [valor, funcao modificadora]
+   const [followText, setFollowText] = useState("Follow")
+
+   function handleClick() {
+    alert("Agora você está seguindo!")
+    setFollowText("Following")
+   }
     return (
         <div className={styles.container}>
             <img src={props.avatar} alt={props.alt} />
@@ -23,8 +31,10 @@ export default function Card (props) {
             <p>{props.skill2}</p>
             <p>{props.skill3}</p>
             <div className={styles.divBtn} >
-            <a className={styles.typeDragon} href="">{props.textBtn}</a>
+            <a  className={styles.typeDragon} href="">{props.textBtn}</a>
             <a  className={styles.typeGround} href="">{props.textBtn1}</a>
+            <buttonSS onClick={handleClick} className={styles.typeGround} href="">{followText}</buttonSS>
+
             </div>
         </div>
       
